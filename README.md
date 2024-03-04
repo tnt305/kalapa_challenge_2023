@@ -1,11 +1,12 @@
 # [KALAPA CHALLENGE _ Vietnamese Medical Question Answering](https://challenge.kalapa.vn/portal/vietnamese-medical-question-answering/leaderboard)
 
 <p align="center">
- <img src="fig/visual.png" width="800">
+ <img src="fig/visual.png" width="800" height="400">
 </p>
 
 ## Public Score
-The evaluation metric used in the first stage is custom score. At the end of the Challenge, i got **74.04**/85.79 compared to the highest score team and got rank 17, in addition my accuracy is better than some other teams, equvilent to rank 9 or 10 with **0.67**/0.7879 compared to the highest accuracy team 
+
+In the initial stage of the Challenge, a custom scoring metric was employed for evaluation purposes. Upon conclusion of the Challenge, my achieved score stood at 74.04 out of 85.79, positioning me at rank 17 relative to the highest-scoring team. In addition, my accuracy surpassed that of several other teams, equating to a ranking around 9th or 10th place with a score of 0.67 out of 0.7879, compared to the highest accuracy team.
 
 | **Rank**            |        **Team name**          |             **Score**              |           **Accuracy**       |    
 |:-------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|
