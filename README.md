@@ -8,8 +8,9 @@
 
 In the initial stage of the Challenge, a custom scoring metric was employed for evaluation purposes.
 <p align="center">
-\sum_{i=1}^{n} \text{int}(label[i]) \sum_{i=1}^{n} \text{int}(output[i])
+∑<sub>i=1</sub><sup>n</sup> int(label[i]) ∑<sub>i=1</sub><sup>n</sup> int(output[i])
 </p>
+
 
 My achieved score stood at 74.04 out of 85.79, positioning me at rank 17 relative to the highest-scoring team. In addition, my accuracy surpassed that of several other teams, equating to a ranking around 9th or 10th place with a score of 0.67 out of 0.7879, compared to the highest accuracy team.
 
