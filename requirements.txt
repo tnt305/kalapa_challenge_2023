@@ -1,0 +1,15 @@
+langchain
+pandas
+chromadb
+python-dotenv
+transformers>=4.37.0
+onnxruntime>=1.14.1
+tiktoken
+transformers-stream-generator
+einops
+accelerate
+onnx
+bitsandbytes
+auto-gptq
+optimum
+autoawq

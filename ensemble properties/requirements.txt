@@ -1,0 +1,8 @@
+# For "one answer":
+- The answer that appears most frequently will be selected.
+- If 2/3 of the results are the same, then choose the common answer.
+- If the answer belongs to the result with more than 2 occurrences, then choose based on bm25.
+
+# For "unknown answer":
+- If 2 answers are the same, they will be selected using majority voting.
+- If each answer option has a frequency of n, then the minimum frequency of the answer should be n-1 .
