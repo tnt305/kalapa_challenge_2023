@@ -1,7 +1,7 @@
 # [KALAPA CHALLENGE _ Vietnamese Medical Question Answering](https://challenge.kalapa.vn/portal/vietnamese-medical-question-answering/leaderboard)
 
 <p align="center">
- <img src="fig/[pipeline_redraws6.png](fig/visual.drawio)" width="800">
+ <img src="fig/visual.png" width="800">
 </p>
 
 ## Public Score
