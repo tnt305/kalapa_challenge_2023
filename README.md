@@ -1,8 +1,20 @@
-# kalapa_vmqa_solution originally viethq18's
+# [KALAPA CHALLENGE _ Vietnamese Medical Question Answering](https://challenge.kalapa.vn/portal/vietnamese-medical-question-answering/leaderboard)
+
+<p align="center">
+ <img src="fig/[pipeline_redraws6.png](fig/visual.drawio)" width="800">
+</p>
+
+## Public Score
+The evaluation metric used in the first stage is custom score. At the end of the Challenge, i got **74.04**/85.79 compared to the highest score team and got rank 17, in addition my accuracy is better than some other teams, equvilent to rank 9 or 10 with **0.67**/0.7879 compared to the highest accuracy team 
+
+| **Rank**            |        **Team name**          |             **Score**              |           **Accuracy**       |    
+|:-------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|
+| **17** |**Thiên Đặng_AIO(me)** |   **0.7404**   | **0.6667** |
+
 
 ## Getting started
 ```
-git clone https://github.com/tnt/kalapa_med_mcqa.git
+git clone https://github.com/tnt305/kalapa_challenge_2023.git
 ```
 ### Installing
 `pip install -r requirements.txt`
@@ -14,5 +26,5 @@ git clone https://github.com/tnt/kalapa_med_mcqa.git
 ### Embed Medical Corpus into Vector Storage
 `python embed_corpus.py`
 
-### Run local
+### Run
 `python main.py`
