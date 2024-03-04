@@ -8,7 +8,7 @@
 
 In the initial stage of the Challenge, a custom scoring metric was employed for evaluation purposes.
 <p align="center">
-∑<sub>i=1</sub><sup>n</sup> int(label[i]) ∑<sub>i=1</sub><sup>n</sup> int(output[i])
+ <img src="fig/score.png" width="400">
 </p>
 
 
