@@ -20,17 +20,17 @@ My achieved score stood at 74.04 out of 85.79, positioning me at rank 17 relativ
 
 ### Description
 
-Currently, with the development of modern language models, many chatbots and language assistants have been built to solve various problems. However, building a Vietnamese language model still faces many limitations.
+- Currently, with the development of modern language models, many chatbots and language assistants have been built to solve various problems. However, building a Vietnamese language model still faces many limitations.
 
-In this challenge, participating teams will build a language model capable of answering multiple-choice questions (with one or more correct answers) in the medical field, based on the provided dataset.
+- In this challenge, participating teams will build a language model capable of answering multiple-choice questions (with one or more correct answers) in the medical field, based on the provided dataset.
 
 ## Problem Statement
 
-The challenge organizers provide data on common diseases, with each disease having from 1 to 2 articles, including information related to causes, symptoms, disease prevention methods, etc.
+- The challenge organizers provide data on common diseases, with each disease having from 1 to 2 articles, including information related to causes, symptoms, disease prevention methods, etc.
 
 ### Input
 
-Vietnamese multiple-choice questions, each with 2 to 6 options, with at least one correct option.
+- Vietnamese multiple-choice questions, each with 2 to 6 options, with at least one correct option.
 
 ### Output
 
@@ -45,7 +45,7 @@ The systems of participating teams need to return answers in binary string forma
 
 ## Dataset
 
-The organizers provide data on common diseases, each accompanied by informative articles covering various aspects of the disease, including causes, symptoms, preventive measures, etc.
+- The organizers provide data on common diseases, each accompanied by informative articles covering various aspects of the disease, including causes, symptoms, preventive measures, etc.
 ## Getting started
 ```
 git clone https://github.com/tnt305/kalapa_challenge_2023.git
@@ -60,5 +60,13 @@ git clone https://github.com/tnt305/kalapa_challenge_2023.git
 ### Embed Medical Corpus into Vector Storage
 `python embed_corpus.py`
 
-### Run
+### Run model
 `python main.py`
+
+### Anything that you should or want to understand about LLMs
+
+- If you're new to quantization,start by reading [this](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_2/Fundamentals_of_data_representation/Floating_point_numbers#:~:text=In%20decimal%2C%20very%20large%20numbers,be%20used%20for%20binary%20numbers.).
+- If you find it hard, consider [this](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
+- More about text generation [configuration](https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc).
+- Convert to [Onnx](https://huggingface.co/blog/convert-transformers-to-onnx)
+- Different model [performance](https://huggingface.co/MediaTek-Research/Breeze-7B-Instruct-v0_1/blob/main/README.md#chat-model-performance) that you might consider to try on
