@@ -8,7 +8,7 @@
 
 In the initial stage of the Challenge, a custom scoring metric was employed for evaluation purposes.
 <p align="center">
- <img src="fig/score.png" width="400">
+ <img src="fig/score.png" width="200">
 </p>
 
 
@@ -70,3 +70,6 @@ git clone https://github.com/tnt305/kalapa_challenge_2023.git
 - More about text generation [configuration](https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc).
 - Convert to [Onnx](https://huggingface.co/blog/convert-transformers-to-onnx)
 - Different model [performance](https://huggingface.co/MediaTek-Research/Breeze-7B-Instruct-v0_1/blob/main/README.md#chat-model-performance) that you might consider to try on
+
+### Sources:
+- The original idea is based [Viet](https://github.com/viethq18/kalapa_vmqa_solution) and [this paper](https://github.com/medmcqa/medmcqa)
