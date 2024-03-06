@@ -16,7 +16,7 @@ My achieved score stood at 74.04 out of 85.79, positioning me at rank 17 relativ
 
 | **Rank**            |        **Team name**          |             **Score**              |           **Accuracy**       |    
 |:-------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|
-| **17** |**Thiên Đặng_AIO(me)** |   **0.7404**   | **0.6667** |
+| **17** |**Thiên Đặng_AIO (me)** |   **0.7404**   | **0.6667** |
 
 ### Description
 
@@ -54,6 +54,7 @@ git clone https://github.com/tnt305/kalapa_challenge_2023.git
 `pip install -r requirements.txt`
 
 ### Download embedding model me5 from Huggingface and convert to onnx
+You can test it with other mutilingual model 
 `git clone https://huggingface.co/intfloat/multilingual-e5-small`
 `python convert_onnx.py`
 
@@ -61,7 +62,10 @@ git clone https://github.com/tnt305/kalapa_challenge_2023.git
 `python embed_corpus.py`
 
 ### Run model
-`python main.py`
+You can also test with different model strategy related to prompting and quantization + generation config
+```
+python main.py --model model_in_the_selection --model_path huggingface_related_model
+```
 
 ### Anything that you should or want to understand about LLMs
 
