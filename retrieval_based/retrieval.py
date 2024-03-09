@@ -15,8 +15,8 @@ import pandas as pd
 from rank_bm25 import BM25Okapi, BM25Plus
 import pickle
 
-
-df = pd.read_csv('/content/MEDICAL/public_test.csv')
+# you can also choose public_test with ner as alternative
+df = pd.read_csv('./MEDICAL/public_test.csv') 
 l_questions = df["question"].tolist()
 l_answer_per_questions = []
 l_columns = ['option_1','option_2','option_3','option_4','option_5','option_6']
@@ -28,9 +28,6 @@ for index, row in df.iterrows():
         else:
             l_answers.append(clean_answer(row[column]))
     l_answer_per_questions.append(l_answers)
-
-
-
 
 
 file_names = []
