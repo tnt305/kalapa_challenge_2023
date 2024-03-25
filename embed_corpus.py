@@ -50,7 +50,7 @@ def run_embedding_clean_corpus(corpus_path, chunk_size=200, chunk_overlap=50):
 
 
 if __name__ == "__main__":
-    list_corpus_path = glob.glob(os.path.join("/kaggle/working/MEDICAL/corpus/corpus", "*"))
+    list_corpus_path = glob.glob(os.path.join("/kaggle/working/corpus", "*"))
 
     # run_embedding_raw_corpus(list_corpus_path, chunk_size=800, chunk_overlap=200)
     # run_embedding_clean_corpus(corpus_path="./clean_v2.csv", chunk_size=800, chunk_overlap=200)
