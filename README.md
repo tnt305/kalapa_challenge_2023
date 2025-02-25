@@ -74,6 +74,6 @@ python main.py --model model_in_the_selection --model_path huggingface_related_m
 - More about text generation [configuration](https://towardsdatascience.com/decoding-strategies-that-you-need-to-know-for-response-generation-ba95ee0faadc).
 - Convert to [Onnx](https://huggingface.co/blog/convert-transformers-to-onnx)
 - Different model [performance](https://huggingface.co/MediaTek-Research/Breeze-7B-Instruct-v0_1/blob/main/README.md#chat-model-performance) that you might consider to try on
-
+https://docs.google.com/spreadsheets/d/1O2Rc9BZcoIxTPecXh1dpcOsZpRpnw2d_ZP-HvgkS2VI/edit?gid=597592777#gid=597592777
 ### Sources:
 - The original idea is based [Viet](https://github.com/viethq18/kalapa_vmqa_solution) and [this paper](https://github.com/medmcqa/medmcqa)
