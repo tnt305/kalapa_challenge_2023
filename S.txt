@@ -1,0 +1,11 @@
+Các "shot" bị phát hiện (phân mảnh vụn):
+1. Frame 0 – 45     (1.5s)  ← bắt đầu zoom
+2. Frame 46 – 89    (1.4s)  ← zoom tiếp
+3. Frame 90 – 150   (2.0s)  ← ánh sáng thay đổi
+4. Frame 151 – 200  (1.6s)  ← pan camera
+5. Frame 201 – 260  (2.0s)  ← zoom dừng, ánh sáng ổn định
+6. Frame 261 – 310  (1.6s)  ← rung máy nhẹ
+7. Frame 311 – 380  (2.3s)
+8. Frame 381 – 450  (2.3s)
+9. Frame 451 – 520  (2.3s)
+10. Frame 521 – 900 (12.6s) ← cuối cùng mới ổn định
