@@ -9,3 +9,24 @@ Các "shot" bị phát hiện (phân mảnh vụn):
 8. Frame 381 – 450  (2.3s)
 9. Frame 451 – 520  (2.3s)
 10. Frame 521 – 900 (12.6s) ← cuối cùng mới ổn định
+
+
+SPEAKER_00: [Ground truth]  
+Video dài 15 giây (450 frame @ 30 FPS).  
+Nội dung: Một cảnh duy nhất — nhân vật ngồi trong quán cà phê, nói chuyện.  
+Không có cắt cảnh. Chỉ có: zoom nhẹ, ánh sáng thay đổi do mây, nhân vật cử động tay.
+
+SPEAKER_01: [Kết quả dùng SSIM với threshold=0.87]  
+Phát hiện 9 "shot" như sau:  
+- Frame 0 – 78  
+- Frame 79 – 102  
+- Frame 103 – 103  (1 frame!)  
+- Frame 104 – 165  
+- Frame 166 – 166  (1 frame!)  
+- Frame 167 – 240  
+- Frame 241 – 241  (1 frame!)  
+- Frame 242 – 320  
+- Frame 321 – 450  
+
+=> Tổng: 9 đoạn, trong đó 3 đoạn chỉ dài 1 frame.  
+=> Phân mảnh nghiêm trọng dù chỉ có 1 cảnh thực tế.
